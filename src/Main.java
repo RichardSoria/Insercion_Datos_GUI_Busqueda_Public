@@ -17,6 +17,7 @@ public class Main
         while (true)
         {
             System.out.println("Presione 1 para ingresar un nuevo estudiante.");
+            System.out.println("Presione 2 para listar los estudiantes.");
             System.out.println("Presione 0 para salir.");
             System.out.print("Ingrese una opción: ");
             opcion = entrada.nextLine();
@@ -104,6 +105,31 @@ public class Main
                 {
                     System.out.println("Error al registrar el estudiante: " + e.getMessage());
                 }
+            }
+            else if (opcion.equals("2"))
+            {
+                try (Connection connection = DriverManager.getConnection(url, user, password);
+                    Statement statement = connection.createStatement();
+                    ResultSet resultSet = statement.executeQuery("SELECT * FROM estudiantes"))
+                {
+                    System.out.println("Listado de estudiantes:");
+
+                    while (resultSet.next())
+                    {
+                        System.out.println("Nombre: " + resultSet.getString("nombre"));
+                        System.out.println("Apellido: " + resultSet.getString("apellido"));
+                        System.out.println("Cédula: " + resultSet.getString("cedula"));
+                        System.out.println("Correo: " + resultSet.getString("correo"));
+                        System.out.println("Nota 1: " + resultSet.getDouble("nota_1"));
+                        System.out.println("Nota 2: " + resultSet.getDouble("nota_2"));
+                        System.out.println("Promedio: " + resultSet.getDouble("promedio"));
+                    }
+                }
+                catch (SQLException e)
+                {
+                    System.out.println("Error al listar los estudiantes: " + e.getMessage());
+                }
+
             }
             else if (opcion.equals("0"))
             {
