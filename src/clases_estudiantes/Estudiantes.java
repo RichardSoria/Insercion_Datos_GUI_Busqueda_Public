@@ -1,3 +1,5 @@
+package clases_estudiantes;
+
 public class Estudiantes
 {
     String nombre;

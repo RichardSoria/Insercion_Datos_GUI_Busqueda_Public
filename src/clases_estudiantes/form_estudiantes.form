@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="clases_estudiantes.form_estudiantes">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="84" width="800" height="600"/>
+    </constraints>
+    <properties>
+      <maximumSize width="800" height="600"/>
+      <minimumSize width="800" height="600"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="5544" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="15" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="320" height="20"/>
+          <minimumSize width="320" height="20"/>
+          <preferredSize width="320" height="20"/>
+          <text value="Ingrese el nombre del estudiante:"/>
+        </properties>
+      </component>
+      <component id="fe8ec" class="javax.swing.JButton" binding="boton_registrar">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="155" height="-1"/>
+            <preferred-size width="155" height="-1"/>
+            <maximum-size width="155" height="-1"/>
+          </grid>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <font name="Arial Black" size="15" style="1"/>
+          <foreground color="-394241"/>
+          <horizontalTextPosition value="0"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="200" height="35"/>
+          <minimumSize width="200" height="35"/>
+          <preferredSize width="200" height="35"/>
+          <text value="Registrar Estudiante"/>
+        </properties>
+      </component>
+      <component id="9b64d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-394241"/>
+          <focusable value="true"/>
+          <font name="Consolas" size="20" style="1"/>
+          <foreground color="-65536"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Sistema de gestión de estudiantes"/>
+        </properties>
+      </component>
+      <component id="9763a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="15" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="320" height="20"/>
+          <minimumSize width="320" height="20"/>
+          <preferredSize width="320" height="20"/>
+          <text value="Ingrese el apellido del estudiante:"/>
+        </properties>
+      </component>
+      <component id="60894" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="15" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="320" height="20"/>
+          <minimumSize width="320" height="20"/>
+          <preferredSize width="320" height="20"/>
+          <text value="Ingrese la cédula del estudiante:"/>
+        </properties>
+      </component>
+      <component id="667fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="15" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="320" height="20"/>
+          <minimumSize width="320" height="20"/>
+          <preferredSize width="320" height="20"/>
+          <text value="Ingrese la nota 1 del estudiante:"/>
+        </properties>
+      </component>
+      <component id="b5774" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="15" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="320" height="20"/>
+          <minimumSize width="320" height="20"/>
+          <preferredSize width="320" height="20"/>
+          <text value="Ingrese la nota 2 del estudiante:"/>
+        </properties>
+      </component>
+      <component id="da26a" class="javax.swing.JTextField" binding="campo_apellido">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <maximumSize width="250" height="25"/>
+          <minimumSize width="250" height="25"/>
+          <opaque value="true"/>
+          <preferredSize width="250" height="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="90d98" class="javax.swing.JTextField" binding="campo_cedula">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <maximumSize width="250" height="25"/>
+          <minimumSize width="250" height="25"/>
+          <opaque value="true"/>
+          <preferredSize width="250" height="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bc945" class="javax.swing.JTextField" binding="campo_nota_1">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <maximumSize width="250" height="25"/>
+          <minimumSize width="250" height="25"/>
+          <opaque value="true"/>
+          <preferredSize width="250" height="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="741a" class="javax.swing.JTextField" binding="campo_nota_2">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="2" left="9" bottom="2" right="6"/>
+          <maximumSize width="250" height="25"/>
+          <minimumSize width="250" height="25"/>
+          <opaque value="true"/>
+          <preferredSize width="250" height="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5a1bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="59716" class="javax.swing.JButton" binding="mostrar_registros">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="155" height="-1"/>
+            <preferred-size width="155" height="-1"/>
+            <maximum-size width="155" height="-1"/>
+          </grid>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-65536"/>
+          <font name="Arial Black" size="15" style="1"/>
+          <foreground color="-394241"/>
+          <horizontalTextPosition value="0"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="200" height="35"/>
+          <minimumSize width="200" height="35"/>
+          <preferredSize width="200" height="35"/>
+          <text value="Buscar Estudiante"/>
+        </properties>
+      </component>
+      <component id="25ee0" class="javax.swing.JTextField" binding="campo_nombre">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <maximumSize width="250" height="25"/>
+          <minimumSize width="250" height="25"/>
+          <opaque value="true"/>
+          <preferredSize width="250" height="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
